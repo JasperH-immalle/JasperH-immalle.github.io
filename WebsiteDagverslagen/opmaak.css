@@ -21,7 +21,7 @@ nav a{
     border-radius: 15px;
 }
 
-.navigation a:hover{
+.nav a:hover{
     background-color: rgba(0, 0, 0, 0.21);
 }
 
@@ -38,5 +38,9 @@ article
     width: 50px;
     height: 50px;
     float: left;
+}
+
+#Home-logo{
+    background-color: transparent;
 }
 
