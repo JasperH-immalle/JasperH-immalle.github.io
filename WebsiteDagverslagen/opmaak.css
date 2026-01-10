@@ -1,5 +1,6 @@
 body{
     background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -44,3 +45,45 @@ article
     background-color: transparent;
 }
 
+hr{
+    background-color: rgb(188, 25, 25);
+    height: 1px;
+}
+
+footer{
+    display: grid;
+    font-size: 0.875rem;
+}
+
+.title{
+    line-height: 1.2;
+    font-weight: 600;
+    color: #575656;
+    margin-bottom: 1rem;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+}
+
+.top{
+    padding: 3.5rem;
+}
+
+.bedrijven{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.bedrijvenlijst{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
