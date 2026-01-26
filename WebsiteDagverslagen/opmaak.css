@@ -5,8 +5,7 @@ body{
 
 header{
     background-color: rgba(0, 0, 0, 0.247);
-    position: sticky;
-    padding: 30px;
+    padding: 25px;
 }
 
 nav{
@@ -28,7 +27,6 @@ nav a{
 
 article
 {
-    background-color: white;
     padding: 20px;
     border-radius: 15px;
 }
@@ -86,4 +84,10 @@ a{
     flex-direction: column;
     margin-bottom: 10px;
 
+}
+#iframe{
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+    width: 500px;
 }
