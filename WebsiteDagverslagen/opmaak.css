@@ -1,6 +1,13 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 body{
     background-color: #e6e6e6;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -29,6 +36,7 @@ article
 {
     padding: 20px;
     border-radius: 15px;
+    flex: 1;
 }
 
 #Home-logo{
@@ -51,6 +59,7 @@ hr{
 footer{
     display: grid;
     font-size: 0.875rem;
+
 }
 
 .title{
@@ -91,12 +100,26 @@ a{
     float: right;
     width: 500px;
 }
-.inhoud{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    gap: 1.5rem;
-}
 .contactgegevens{
     color:#575656;
+}
+.inhoud_deel {
+    background: rgba(0, 0, 0, 0.105);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.inhoud_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.copyright{
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: rgb(188, 25, 25);
+    padding: 5px;
+    width: 100%;
 }
