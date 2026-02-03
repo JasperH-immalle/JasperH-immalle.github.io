@@ -91,3 +91,12 @@ a{
     float: right;
     width: 500px;
 }
+.inhoud{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.5rem;
+}
+.contactgegevens{
+    color:#575656;
+}
